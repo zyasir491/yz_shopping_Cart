@@ -1,0 +1,27 @@
+inventory_task:
+  description: >
+    Check product stock levels and update inventory according to {my_shop}.
+  expected_output: >
+    proper management of inventory and stocks level according to {my_shop}.
+  agent: inventory_agent
+
+sales_task:
+  description: >
+    Process a customer's purchase. according to {my_shop}.
+  expected_output: >
+    proper sales management according to {my_shop}.
+  agent: sales_agent
+
+account_task:
+  description: >
+    Generate monthly financial sales report according to {my_shop}.
+  expected_output: >
+    financial sales reports according to {my_shop}.
+  agent: accounting_agent
+
+  hr_task:
+    description: >
+      Monitor employee performance according to {my_shop}.
+    expected_output: >
+      employees performance record and attendance according to {my_shop}.
+    agent: hr_agent
